@@ -46,8 +46,15 @@ img {
     height: auto;
 }
 
-.visibility {
-    display: none;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
 }
 
 .list {
@@ -57,14 +64,11 @@ img {
 }
 
 .title {
-    font-family: DM Serif Display, serif; 
+    font-family: DM Serif Display, serif;
     letter-spacing: 0.02em;
 }
 
-.section {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+
 
 .container {
     margin-left: auto;
@@ -72,15 +76,5 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     max-width: 1200px;
-
-}
-
-
-@media (min-device-pixel-ratio: 2),
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-
-
 
 }
