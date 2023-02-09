@@ -100,9 +100,12 @@
   border-radius: 50%;
   background-color: #f4f0ec;
   border: none;
+
+  transition: $top-time-animation $top-cubic-bezier;
 }
 
-.card-button-icon {
+.wraper-articles-item:hover > .card-button {
+  background-color: $top-text-color-white;
 }
 
 // .join-container {
