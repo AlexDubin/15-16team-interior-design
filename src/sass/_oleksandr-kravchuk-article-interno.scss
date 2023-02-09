@@ -6,9 +6,6 @@
   display: block;
 }
 
-// .articles-container {
-// }
-
 .articles-title {
   font-weight: 400;
   font-size: 50px;
@@ -37,13 +34,41 @@
   display: grid;
   justify-content: center;
   width: 382px;
+  cursor: pointer;
+}
+
+.articles-item:hover,
+.articles-item:focus {
+  background-color: #f4f0ec;
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.25);
+  border-radius: 62px;
 }
 
 .wraper-articles-item {
+  position: relative;
   border: 1px solid #e7e7e7;
   filter: drop-shadow(0px 10px 30px rgba(255, 255, 255, 0.25));
   border-radius: 62px;
   padding: 21px;
+  .images-articles {
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+  }
+}
+
+.inscription-above {
+  position: absolute;
+  top: 249px;
+  left: 41px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 8px 8px 8px 0px;
+  width: 124px;
+  .inscription-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: $top-text-color-dark;
+  }
 }
 
 .container-advantages {
@@ -51,11 +76,16 @@
 }
 
 .advantages {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.24;
+  color: $top-title-color-dark;
   margin-top: 21px;
   margin-bottom: 30px;
 }
-// .date {
-// }
+
+.date {
+}
 // .join-container {
 // }
 // .join-title {
