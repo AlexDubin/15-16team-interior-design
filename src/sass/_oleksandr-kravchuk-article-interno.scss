@@ -6,6 +6,10 @@
   display: block;
 }
 
+.articles-container {
+  margin-bottom: 200px;
+}
+
 .articles-title {
   font-weight: 400;
   font-size: 50px;
@@ -108,11 +112,51 @@
   background-color: $top-text-color-white;
 }
 
-// .join-container {
-// }
-// .join-title {
-// }
-// .join-text {
-// }
-// .button-contact {
-// }
+.join-container {
+  background-color: $top-title-color-dark;
+  border-radius: 70px;
+}
+
+.join-wraper {
+  padding: 80px 0;
+}
+
+.join-title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.24;
+  color: $top-text-color-white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.join-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: center;
+  color: $top-text-color-white;
+  margin-bottom: 32px;
+}
+
+.button-contact {
+  display: block;
+  text-align: inherit;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: $top-text-color-white;
+
+  margin: auto;
+  width: 238px;
+  padding: 26px 37px;
+  background: $top-color-hover;
+  box-shadow: 0px 10px 20px #1f2022;
+  border-radius: 18px;
+  border: none;
+}
+
+.button-contact-icon {
+  stroke: #1f2022;
+}

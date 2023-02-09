@@ -1,27 +1,23 @@
-$top-text-color-dark: #4D5053;
-$top-title-color-dark: #292F36;
+$top-text-color-dark: #4d5053;
+$top-title-color-dark: #292f36;
 $top-text-color-white: #fff;
 
 $top-section-background-color: rgba(244, 240, 236, 1);
 
 $top-color-accent-dark: rgba(41, 47, 54, 1);
-$top-color-hover: #CDA274;
+$top-color-hover: #cda274;
 
 $top-time-animation: 250ms;
 $top-cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
 
-
-
 body {
-    margin: 0;
-    background-color: #ffffff;
-    color: $top-text-color-dark;
+  margin: 0;
+  background-color: #ffffff;
+  color: $top-text-color-dark;
 
-    font-family: Jost, sans-serif;
-    letter-spacing: 0.01em;
+  font-family: Jost, sans-serif;
+  letter-spacing: 0.01em;
 }
-
-
 
 a,
 h1,
@@ -32,49 +28,46 @@ h5,
 h6,
 p,
 ul {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
 .list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .title {
-    font-family: DM Serif Display, serif;
-    letter-spacing: 0.02em;
+  font-family: DM Serif Display, serif;
+  letter-spacing: 0.02em;
 }
 
-
-
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1200px;
-
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1200px;
 }
