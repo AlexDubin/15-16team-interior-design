@@ -61,19 +61,22 @@
   .images-articles {
     border-top-right-radius: 45px;
     border-top-left-radius: 45px;
-
-    transition: $top-time-animation $top-cubic-bezier;
   }
 }
 
-.images-articles:hover,
-.images-articles:focus {
+.carrousel-img {
+  width: 340px;
+
+  transition: $top-time-animation $top-cubic-bezier;
+}
+
+.carrousel-img:hover {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .inscription-above {
   position: absolute;
-  top: 249px;
+  top: 240px;
   left: 41px;
   padding: 10px;
   background: #ffffff;
@@ -163,10 +166,16 @@
   width: 238px;
   padding: 26px 37px;
   background: $top-color-hover;
-  box-shadow: 0px 10px 20px #1f2022;
   border-radius: 18px;
   cursor: pointer;
   border: none;
+
+  transition: $top-time-animation $top-cubic-bezier;
+}
+
+.button-contact:hover,
+.button-contact:focus {
+  box-shadow: 0px 10px 20px #1f2022;
 }
 
 .button-contact-icon {
