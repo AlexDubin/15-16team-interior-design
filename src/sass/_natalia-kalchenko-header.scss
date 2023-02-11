@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 43px;
+    padding-bottom: 45px;
+  }
+  
+  .header-logo {
+    margin-left: 10px;
+    font-family: 'DM Serif Display';
+    font-size: 40px;
+    line-height: 1.25;
+    color: #292f36;
+  }
+  .header-logo:hover,
+  .header-logo:focus {
+    background-color: #cda274;
+    border-radius: 15%;
+  }
+  .site-nav-list {
+      display: flex;
+      gap: 40px;
+      margin-left: auto;
+      margin-right: 31px;
+  }
+  .site-nav-link {
+    font-family: 'Jost';
+    font-size: 20px;
+    line-height: 1.25;  
+    color: #292f36;
+  }
+
+  .site-nav-link:hover,
+  .site-nav-link:focus {
+    background-color: #cda274;
+    border-radius: 15%;   
+  }
+  
+  .header-icon-search {
+    stroke: #141414;
+    fill: #ffffff;
+  }
+
+  .header-icon-search:hover,
+  .header-icon-search:focus {     
+    fill:#cda274;
+  }
+  
