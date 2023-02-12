@@ -1,0 +1,173 @@
+.our-work-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.our-work-container {
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.our-work-list {
+    display: flex;
+    align-items: center;
+    gap: 42px; 
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.our-work-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.our-work-title {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.24;
+    color: $top-title-color-dark;
+}
+
+.our-work-description {
+    margin-bottom: 32px;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;   
+    color: $top-text-color-dark;
+}
+
+.our-work-link-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-work-link {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: $top-text-color-dark;
+    transition: color $top-time-animation $top-cubic-bezier;
+
+    &:hover, &:focus {
+        color: $top-color-hover;
+    }
+
+}
+
+
+.art-style {
+    padding-bottom: 200px;
+}
+
+
+.art-style-container {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+.art-style-wrapper {
+    max-width: 472px;
+}
+
+.art-style-title {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.25;
+    color: $top-title-color-dark;
+    margin-bottom: 33px;
+}
+
+.art-style-description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    color: $top-text-color-dark;
+    margin-bottom: 45px;
+}
+
+.art-icon-tel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93px;
+    height: 93px;
+    border-radius: 50px;
+    background-color: $top-section-background-color;
+    transition: background-color $top-time-animation $top-cubic-bezier;
+
+    &:hover,
+    &:focus {
+        background-color: $top-title-color-dark;
+    }
+}
+
+
+.art-style-contacts {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 47px;
+}
+
+.art-style-contacts-tel {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    color: $top-text-color-dark;
+
+    &:hover,
+    &:focus {
+        color: $top-color-hover;
+    }
+        
+}
+
+.contacts-description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    color: $top-text-color-dark;
+}
+
+.art-style-button {
+    padding-left: 31px;
+    padding-top: 26px;
+    padding-right: 31px;
+    padding-bottom: 26px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.25%;
+    letter-spacing: 0.02em;
+    color: $top-text-color-white;
+    background: $top-title-color-dark;
+    box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+    border-radius: 18px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: color $top-time-animation $top-cubic-bezier, background-color $top-time-animation $top-cubic-bezier;
+
+    &:hover,
+    &:focus {
+        color: $top-color-hover;
+        background-color: $top-text-color-dark;
+    }
+}
+
+.single-item {
+    width: 653px;
+}
+
+.art-img {
+    height: 700px;
+}
