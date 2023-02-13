@@ -1,0 +1,99 @@
+.footer-container {
+    padding-top: 82px;
+    
+}
+
+.footer-logo-block {
+  
+}
+
+.footer-logo {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.footer-logo-icon {
+  
+}
+
+
+.footer-logo-text {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 125%;
+    align-items: center;
+    margin-left: 10px;
+    color: $top-title-color-dark;
+}
+.footer-logo-block-text,
+.footer-nav-link,
+.footer-contacts-link,
+.footer-down-text
+ {
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+align-items: center;
+letter-spacing: 0.01em;
+color: $top-title-color-dark;
+
+}
+.footer-logo-block-text {
+    margin-bottom: 30px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 100px;
+}
+
+.footer-logo-block {
+    width: 393px;
+}
+
+.footer-overlay-soc {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 90px;
+    
+}
+
+.footer-pages,
+.footer-servises, .footer-contacts
+ {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-contacts {
+    width: 258px;
+}
+
+.footer-title {
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 125%;
+align-items: center;
+letter-spacing: 0.01em;
+color: $top-title-color-dark;
+margin-bottom: 25px;
+
+}
+.footer-down-text {
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 20px;
+}
